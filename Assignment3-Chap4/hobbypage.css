@@ -1,0 +1,13 @@
+h2 { background-color:Blue;
+	text-align: center;
+	width: 1200px;
+    border-radius: 10px;}
+
+img { border: 5px solid #000033;
+	  border-radius: 10px; }
+
+a	{ background-color:Green;
+	color: Yellow;
+	width: 1200px;
+    border-radius: 2px;
+    text-decoration: none;}
