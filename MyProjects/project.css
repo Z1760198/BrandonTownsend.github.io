@@ -1,0 +1,142 @@
+* {
+   box-sizing: border-box;
+  }
+    
+body {
+    font-family: Calibri;
+    padding: 2px;
+    background: black;
+    background-image: url(pageback.jpg);
+    }
+    
+.header {
+  padding: 30px;
+  text-align: center;
+  background: silver;
+   border: 3px solid gray;
+	  border-radius: 10px;
+      background-image: linear-gradient(to bottom, #3399ff, #339966);
+	  color: black;
+}
+.header h1 {
+  font-size: 50px;
+}
+.column {
+  float: left;
+}
+.left {
+  width: 20%;
+}
+.right {
+  width: 80%;
+}  
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+    border: 3px solid gray;
+	border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+      background-image: linear-gradient(to bottom, #3399ff, #339966);
+}
+.topnav a {
+  color: black;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 30px;
+  
+}
+.topnav a:hover {
+  background-color: #37474F;
+  color: black;
+}
+.topnav a:visited {
+  background-color: #37474F;
+  color: #333;
+}
+.middlenav a {
+  float: center;
+  display: block;
+  color: black;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration:  underline;
+  font-size: 30px;
+}
+.middlenav a:hover {
+  background-color: #9999ff;
+  color: black;
+}
+.middlenav a:visited {
+  background-color: #9966ff;
+  color: #333;
+}
+.middlecolumn {   
+  float: left;
+  width: 75;
+}
+.rightcolumn {
+  float: left;
+  width: 24.3%;
+  margin-top: 10px;
+ 
+  
+}
+.img {
+	max-width: 100%;
+    max-height: 100%;
+}
+.test { 
+	width: 100%;
+	height: auto;
+  
+}
+.card {
+  background-color: white;
+  padding: 5px;
+  border: 3px solid gray;
+	border-radius: 10px;
+      margin-bottom: 10px;
+    
+ background-image: linear-gradient(to bottom, white, Gray);
+ 
+}
+.card2 {  background-color: white;
+  padding: 5px;
+ border: 3px solid gray;
+	border-radius: 10px;
+	 margin-bottom: 10px; 
+ background-image: linear-gradient(to bottom, white, Gray);
+margin-right: 10px;
+  }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  font-size:10px;
+  text-align: center;
+  background: silver;
+  margin-top: 5px;
+   border: 3px solid gray;
+	border-radius: 10px;
+    background-image: linear-gradient(to bottom, white, Gray);
+    
+}
+#wrapper { 
+           width: 75%;
+		   margin: auto;
+}
+#print-button {
+	display: none;
+	
+}
+@media print
+{
+.noprint {display:none;}
+}
+@media screen
+{
+}
