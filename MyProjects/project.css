@@ -1,3 +1,21 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Z1760198 
+0
+0 0 Z1760198/BrandonTownsend.github.io
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+BrandonTownsend.github.io/MyProjects/project.css
+@Z1760198 Z1760198 Update project.css
+dd161b2 24 minutes ago
+135 lines (120 sloc)  2 KB
+    
 * {
    box-sizing: border-box;
   }
@@ -13,9 +31,7 @@ body {
   padding: 30px;
   text-align: center;
   background: silver;
-   border: 3px solid gray;
-	  border-radius: 10px;
-      background-image: linear-gradient(to bottom, #3399ff, #339966);
+  background-image: linear-gradient(to bottom, #3399ff, #339966);
 	  color: black;
 }
 .header h1 {
@@ -33,9 +49,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
-    border: 3px solid gray;
-	border-radius: 10px;
-    margin-top: 10px;
+  margin-top: 10px;
     margin-bottom: 10px;
       background-image: linear-gradient(to bottom, #3399ff, #339966);
 }
@@ -95,48 +109,56 @@ body {
 .card {
   background-color: white;
   padding: 5px;
-  border: 3px solid gray;
-	border-radius: 10px;
-      margin-bottom: 10px;
+  margin-bottom: 10px;
     
  background-image: linear-gradient(to bottom, white, Gray);
  
 }
 .card2 {  background-color: white;
   padding: 5px;
- border: 3px solid gray;
-	border-radius: 10px;
-	 margin-bottom: 10px; 
+ margin-bottom: 10px; 
  background-image: linear-gradient(to bottom, white, Gray);
 margin-right: 10px;
   }
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+
 .footer {
   font-size:10px;
   text-align: center;
   background: silver;
   margin-top: 5px;
-   border: 3px solid gray;
-	border-radius: 10px;
-    background-image: linear-gradient(to bottom, white, Gray);
-    
-}
+  background-image: linear-gradient(to bottom, white, Gray);
+ }
+
 #wrapper { 
-           width: 75%;
-		   margin: auto;
+      width: 75%;
+      margin: auto;
 }
+
 #print-button {
 	display: none;
-	
 }
-@media print
-{
+
+@media print {
 .noprint {display:none;}
 }
-@media screen
-{
+
+@media screen{
 }
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
